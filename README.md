@@ -6,11 +6,9 @@ Vince Moreno, 5 May 2024
 
 Description
 The NQueens folder contains the implementation of the NQueens problem
-and an executable "nqueens" to run it. The subfolder "Helper" contains a
-java helper file "PrintSolutionHelper" to show a board for a given set of 
-solutions. The Tests folder contains input and output files to test the 
-code on. NQueens.cpp has no recursion and functions strictly on a stack 
-based solution.
+and an executable "nqueens" to run it. The Tests folder contains input and 
+output files to test the code on. NQueens.cpp has no recursion and functions 
+strictly on a stack based solution.
 
 
 
@@ -18,8 +16,6 @@ Files
 Code Files: Makefile, NQueens.cpp
 Input/Output Files: simple-input.txt, simple-output.txt
 Extra files: README
-
-The folder Helper contains PrintSolutionHelper.java
 
 The Tests folder contains input and output .txt files.
 Input Files: more-input.txt, simple-input.txt, test-5-input.txt
@@ -31,15 +27,6 @@ Usage
 In main folder:
   1. Run "make", to get executable "nqueens"
   2. Run "./nqueens <INPUT FILE> <OUTPUT FILE>"
-
-In Helper folder:
-  1. Run "javac PrintSolutionHelper.java", to get executable "PrintSolutionHelper"
-  2. Run "./PrintSolutionHelper <INPUT FILE>"
-
-Run nqueens to get a solution and use that solution as the input for
-PrintSolutionHelper.
-
-
 
 Input/Output
 
